@@ -19,6 +19,11 @@ The xStoragePool module contains the xStripeSet DSC Resource.
 
 # Versions
 
+### 1.0.0.1
+* Update of the xStripeSet DSC Resource
+    * Completed all tests in the DSC test-step
+    * Changed set-step so a configuration van be completed when parts already exist (e.g. Storage Pool was already created in a previous run, but something went wrong in one of the next steps.)
+
 ### 1.0.0.0
 * Initial release with the following resources:
   * xStripeSet
